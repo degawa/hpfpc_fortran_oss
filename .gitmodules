@@ -1,0 +1,18 @@
+[submodule "ex_stdlib"]
+	path = ex_stdlib
+	url = https://github.com/degawa/ex_stdlib
+[submodule "ex_jsonfortran"]
+	path = ex_jsonfortran
+	url = https://github.com/degawa/ex_jsonfortran
+[submodule "ex_vtkfortran"]
+	path = ex_vtkfortran
+	url = https://github.com/degawa/ex_vtkfortran
+[submodule "ex_io"]
+	path = ex_io
+	url = https://github.com/degawa/ex_io
+[submodule "ex_fprettify"]
+	path = ex_fprettify
+	url = https://github.com/degawa/ex_fprettify
+[submodule "ex_fypp"]
+	path = ex_fypp
+	url = https://github.com/degawa/ex_fypp
