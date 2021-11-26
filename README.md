@@ -25,15 +25,15 @@
 下記の順番で作業をしていくと，fpmに躓くことなく一定の使い方を学習できると考えている．ただし，fpmが標準コンパイラとして参照するgfortranを利用する場合であり，Intel Fortranを用いる場合はいくつか手順が省略される．
 
 1. `fpm new`で新しくプロジェクトを作り, `fpm build`, `fpm run`, `fpm test`を実行する．
-1. stdlibの使用例（ [ex_stdlib](https://github.com/degawa/ex_stdlib ）あるいはJSON-Fortranの使用例（[ex_jsonfortran](https://github.com/degawa/ex_jsonfortran) ）を実行する．
+1. stdlibの使用例（[ex_stdlib](https://github.com/degawa/ex_stdlib)）あるいはJSON-Fortranの使用例（[ex_jsonfortran](https://github.com/degawa/ex_jsonfortran)）を実行する．
     - 依存プロジェクトの参照方法
-1. VTKFortranの使用例（ [ex_vtkfortran](https://github.com/degawa/ex_vtkfortran ）
+1. VTKFortranの使用例（[ex_vtkfortran](https://github.com/degawa/ex_vtkfortran)）
     - ビルドの際に，コンパイラにオプションを渡す方法
     - 依存プロジェクトがさらに別のプロジェクトを参照している際の挙動
     - ビルドだけでなく，実行の際にもコンパイル時と同じオプションが必要であること
 1. [ex_io](https://github.com/degawa/ex_io)
     - 複数の依存リポジトリの参照方法
-1. fyppの使用例（ [ex_fypp](https://github.com/degawa/ex_fypp) ）
+1. fyppの使用例（[ex_fypp](https://github.com/degawa/ex_fypp)）
     - exampleの使用方法
     - 複数の実行ファイルのビルド
     - 実行可能な実行ファイルの確認方法，選択して実行する方法
