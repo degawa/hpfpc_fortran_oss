@@ -1,6 +1,6 @@
 # Examples of Fortran OSS for efficiency improvement of desktop development environment
 
-[第6回並列Fortranシンポジウム](https://site.hpfpc.org/home/events/parallel_fortran_sympo6)での発表「Fortran向けOSSを活用したデスクトップ開発環境効率化」で紹介したFortran OSSの使用例．
+[第6回並列Fortranシンポジウム](https://site.hpfpc.org/home/events/parallel_fortran_sympo6)での発表「Fortran向けOSSを活用したデスクトップ開発環境効率化」([pdf](https://github.com/degawa/hpfpc_fortran_oss/blob/main/Fortran_OSS_for_efficiency_improvement_of_desktop_development_environment.pdf))で紹介したFortran OSSの使用例．
 
 発表内では，下記のOSSの使用例を紹介した．
 - Fortran stdlib
