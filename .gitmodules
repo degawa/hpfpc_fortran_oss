@@ -16,3 +16,6 @@
 [submodule "ex_fypp"]
 	path = ex_fypp
 	url = https://github.com/degawa/ex_fypp
+[submodule "tasks.json-for-fpm"]
+	path = tasks.json-for-fpm
+	url = https://github.com/degawa/tasks.json-for-fpm.git
