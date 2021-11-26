@@ -1,4 +1,4 @@
-# Examples of Fortran OSS
+# Examples of Fortran OSS for efficiency improvement of desktop development environment
 
 [第6回並列Fortranシンポジウム](https://site.hpfpc.org/home/events/parallel_fortran_sympo6)での発表「Fortran向けOSSを活用したデスクトップ開発環境効率化」で紹介したFortran OSSの使用例．
 
@@ -9,7 +9,7 @@
 - fypp
 - fprettify
 
-また，応用例として，JSON-Fortranから設定ファイルを読み込み，距離関数を計算し，VTKFortranを用いてvtr形式で出力するプログラムも紹介した．ロギングやエラーチェックにはstdlibを用いている．
+応用例として，JSON-Fortranから設定ファイルを読み込み，距離関数を計算し，VTKFortranを用いてvtr形式で出力するプログラムも紹介した．ロギングやエラーチェックにはstdlibを用いている．
 
 ## リポジトリ内容の取得
 `--recursive`オプションを付けてクローンする．
@@ -53,3 +53,21 @@ git submodule update --init --recursive
     - exampleの使用方法
     - 複数の実行ファイルのビルド
     - 実行可能な実行ファイルの確認方法，選択して実行する方法
+
+## 言及したOSS
+使用例を紹介する時間はなかったが，下記OSSに言及した．
+- [FORD](https://github.com/Fortran-FOSS-Programmers/ford)
+    - ドキュメント生成ツール
+- [TOML-Fortran](https://github.com/toml-f/toml-f)
+    - FortranでTOMLファイルを取り扱うためのAPIを提供
+- [M_CLI2](https://github.com/urbanjost/M_CLI2)
+    - コマンドラインオプションの取り扱いを改善
+- [vegetables](https://gitlab.com/everythingfunctional/vegetables)
+    - BDDスタイルのテストフレームワーク
+- [GTK-Fortran](https://github.com/vmagnin/gtk-fortran)
+    - GIMP ToolkitのFortranバインディング
+- [Quickstart Fortran on Windows](https://github.com/LKedward/quickstart-fortran)
+    - Windows用のFortran環境のインストーラ
+        - gfortran, fpm OpenBLAS, make
+        - intelコンパイラの環境変数を設定するためのバッチファイル
+        - stdlibをインストールするためのバッチファイル
