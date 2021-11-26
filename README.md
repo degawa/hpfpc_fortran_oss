@@ -11,6 +11,22 @@
 
 また，応用例として，JSON-Fortranから設定ファイルを読み込み，距離関数を計算し，VTKFortranを用いてvtr形式で出力するプログラムも紹介した．ロギングやエラーチェックにはstdlibを用いている．
 
+## リポジトリ内容の取得
+`--recursive`オプションを付けてクローンする．
+```console
+git clone --recursive https://github.com/degawa/hpfpc_fortran_oss
+```
+
+`--recursive`オプションを付けずにクローンした場合は，`git submodule`コマンドを利用して，参照するリポジトリの内容も取得する．
+
+```
+git clone https://github.com/degawa/hpfpc_fortran_oss
+cd hpfpc_fortran_oss
+git submodule update --init --recursive
+```
+
+このリポジトリ内でまとめてクローンする必要はなく，使用例を個別にクローンしてもよい．
+
 ## 要求ソフトウェア
 - [fpm](https://github.com/fortran-lang/fpm)
 - [Fortran-stdlib](https://github.com/fortran-lang/stdlib)
